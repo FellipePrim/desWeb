@@ -17,3 +17,29 @@ header{
 article{
     margin: 2em 4em 2em 4em;
 }
+.container{
+    display: grid;
+    grid-gap: 10rem;
+    grid-template:
+    'item1 item1 img1'
+    'item2 item2 img2'
+    'item3 item3 img3'
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    border: 1rem solid #000;
+}
+.item1{
+    grid-area: item1;
+}
+
+.item2{
+    grid-area: item2;
+
+}
+
+.item3{
+    grid-area: item3;
+
+}
