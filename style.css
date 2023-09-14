@@ -21,25 +21,34 @@ article{
     display: grid;
     grid-gap: 10rem;
     grid-template:
-    'item1 item1 img1'
-    'item2 item2 img2'
-    'item3 item3 img3'
+    'servico1 servico1 img1'
+    'img2 servico2 servico2'
+    'servico3 servico3 img3';
+
+    
 }
 .container div{
     display: flex;
     justify-content: center;
-    border: 1rem solid #000;
 }
-.item1{
-    grid-area: item1;
+.servico1{
+    grid-area: servico1;
 }
-
-.item2{
-    grid-area: item2;
-
+.img1{
+    grid-area: img1;
 }
-
-.item3{
-    grid-area: item3;
-
+.servico2{
+    grid-area: servico2;
+}
+.img2{
+    grid-area: img2;
+}
+.servico3{
+    grid-area: servico3;
+}
+.img3{
+    grid-area: img3;
+}
+div {
+    border: solid 2px black;
 }
