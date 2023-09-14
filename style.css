@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    text-align: center;
+}
+#indexLinks{
+    display: flex;
+    justify-content: space-evenly;
+}
+#indexLinks a{
+    text-decoration: none;
+}
+article{
+    margin: 2em 4em 2em 4em;
+}
