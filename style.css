@@ -15,11 +15,13 @@ header{
     text-decoration: none;
 }
 article{
-    margin: 2em 4em 2em 4em;
+    margin: 2rem 5rem 2rem 5rem;
 }
 .container{
+    border: none;
     display: grid;
-    grid-gap: 10rem;
+    margin: 2rem 5rem 2rem 5rem;
+    grid-gap: 1rem;
     grid-template:
     'servico1 servico1 img1'
     'img2 servico2 servico2'
@@ -30,6 +32,7 @@ article{
 .container div{
     display: flex;
     justify-content: center;
+    padding: 2rem;
 }
 .servico1{
     grid-area: servico1;
@@ -51,4 +54,8 @@ article{
 }
 div {
     border: solid 2px black;
+}
+footer{
+    text-align: center;
+    font-style: italic;
 }
