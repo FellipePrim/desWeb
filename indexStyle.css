@@ -33,6 +33,7 @@ article{
 .container div{
     display: flex;
     justify-content: center;
+    height: 25rem;
     
 }
 .servico1{
