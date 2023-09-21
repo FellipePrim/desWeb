@@ -62,4 +62,8 @@ form{
 .container a{
     text-decoration: none;
 }
+.wpp img{
+    position: fixed;
+    height: 5rem;
+}
     
