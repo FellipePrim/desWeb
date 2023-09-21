@@ -33,7 +33,7 @@ article{
 .container div{
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    
 }
 .servico1{
     grid-area: servico1;
@@ -59,4 +59,7 @@ div {
 footer{
     text-align: center;
     font-style: italic;
+}
+div img{
+    width: 100%;
 }

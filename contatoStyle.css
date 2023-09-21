@@ -9,7 +9,7 @@ header h1{
     color: #000000;
 }
 form{
-    border: 0.1rem solid #000000;
+    border: 0.3rem solid #000000;
     position: absolute;
     top: 50%;
     width: 30rem;
@@ -21,7 +21,7 @@ form{
     display: flex;
     justify-content: center;
     position: relative;
-    margin-right: 30rem;
+    /*margin-right: 10rem;*/
 
 }
 .info{
@@ -56,8 +56,8 @@ form{
     margin: 3rem 0 3rem 0;
     padding: 3rem;
     color: #fff;
-    width: 30%;
-    border: 1px solid black;
+    width: 50%;
+    border: 3px solid black;
 }
 .container a{
     text-decoration: none;
