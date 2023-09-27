@@ -20,7 +20,8 @@ section h1{
 }
 .container div{
     display: flex;
-    border: 0.3rem solid #000;
+    background-color: #f0ecec;
+    border: 0.1px #b3b0b0 solid;
     padding: 1rem;
 }
 .servico1{
@@ -43,10 +44,12 @@ section h1{
 }
 #returnBtn{
     text-decoration: none;
-    margin: 5rem 1rem 2rem 3rem;
-    border: 0.2rem solid #000;
+    background-color: #e4d9d9;
+    padding: 1rem;
+    margin: 0 1rem 0 4rem;
+    border: 1px solid #9c9a9a;
+    color: #000;
     border-radius: 0.4rem;
-    padding: 0.5rem;
 }
 #returnBtn:hover{
     background-color: #bebebe;
@@ -54,9 +57,11 @@ section h1{
 }
 #auxBtn{
     text-decoration: none;
-    border: 0.2rem solid #000;
+    background-color: #e4d9d9;
+    padding: 1rem;
+    border: 1px solid #9c9a9a;
     border-radius: 0.4rem;
-    padding: 0.5rem;
+    color: #000;
 }
 #auxBtn:hover{
     background-color: #bebebe;

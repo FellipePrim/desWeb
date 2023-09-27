@@ -13,4 +13,5 @@ function dark(){
     document.a.style.color='#fff'
     document.getElementById("indexLinks").style.color="#fff"
     document.getElementById("indexLinks").style.textDecoration="none"
+    document.getElementsByName('container').style.background="#191919"
 }
