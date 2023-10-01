@@ -51,9 +51,6 @@ div img{
 }
 section div{
     display: flex;
-<<<<<<< Updated upstream
-    border: 0.1px #b3b0b0 solid;
-=======
 }
 .btn{
     margin: 5rem;
@@ -65,7 +62,6 @@ section div{
     background-color: #da3232;
 
     color: #fff;
->>>>>>> Stashed changes
 }
 .btn:hover{
     background-color: #b62a2a;
@@ -76,30 +72,11 @@ section div{
 a{
     color: #fff;
     text-decoration: none;
-<<<<<<< Updated upstream
-    background-color: #e4d9d9;
-    padding: 1rem;
-    margin: 4rem;
-    border: 1px solid #9c9a9a;
-    border-radius: 0.4rem;
-    color: #000;
-}
-#returnBtn:hover{
-    background-color: #bebebe;
-    transition: 0.2s;
-=======
->>>>>>> Stashed changes
 }
 header h1{
     text-align: center;
 
 }
-<<<<<<< Updated upstream
-div img{
-    width: 50px;
-    height: 500px;
-    width: 100%;
-=======
 div p{
     margin-top: 10rem;
     width: 800px;
