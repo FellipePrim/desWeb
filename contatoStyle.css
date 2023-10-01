@@ -36,7 +36,7 @@ form{
 }
 .info textarea{
     height: 9rem;
-    color: #00
+    color: #000
 }
 .btn{
     text-align: center;
@@ -71,12 +71,10 @@ form{
 }
 .wpp img{
     position: fixed;
-<<<<<<< Updated upstream
-    height: 3rem;
-=======
+
     margin-top: 0.3rem;
     height: 2rem;
->>>>>>> Stashed changes
+
 }
  
 .btn{
