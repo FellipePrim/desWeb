@@ -3,12 +3,14 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #2e2c2c;
+    color: #fff;
 
 }
 section h1{
     display: flex;
     justify-content: center;
-}
+} 
 .container{
     display: grid;
     grid-gap: 2rem;
@@ -20,9 +22,20 @@ section h1{
 }
 .container div{
     display: flex;
+<<<<<<< Updated upstream
     background-color: #f0ecec;
     border: 0.1px #b3b0b0 solid;
+=======
+    border: 0.3rem solid #000;
+    background-color: #1a1919;
+>>>>>>> Stashed changes
     padding: 1rem;
+    border-radius: 0.5rem;
+    
+}
+.container a{
+    color: #fff;
+    text-decoration: underline;
 }
 .servico1{
     grid-area: servico1;
@@ -42,28 +55,57 @@ section h1{
     grid-area: servico5;
     
 }
-#returnBtn{
+.btn{
+    margin: 0 1rem 0 5rem;
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #da3232;
     text-decoration: none;
+<<<<<<< Updated upstream
     background-color: #e4d9d9;
     padding: 1rem;
     margin: 0 1rem 0 4rem;
     border: 1px solid #9c9a9a;
     color: #000;
     border-radius: 0.4rem;
+=======
+>>>>>>> Stashed changes
 }
-#returnBtn:hover{
-    background-color: #bebebe;
-    transition: 0.2s;
+.btn:hover{
+    background-color: #b62a2a;
+    transition: 0.3s;
+
 }
-#auxBtn{
+.infoAux{
+    color: #000000;
+}
+a{
     text-decoration: none;
+<<<<<<< Updated upstream
     background-color: #e4d9d9;
     padding: 1rem;
     border: 1px solid #9c9a9a;
     border-radius: 0.4rem;
     color: #000;
+=======
+    color: #000000;
+>>>>>>> Stashed changes
 }
-#auxBtn:hover{
-    background-color: #bebebe;
-    transition: 0.2s;
+.btn2{
+
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #da3232;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: #b62a2a;
+    transition: 0.3s;
+
 }

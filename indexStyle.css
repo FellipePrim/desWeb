@@ -3,6 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #2e2c2c;
+    color: #fff;
 
 }
 header{
@@ -11,9 +13,11 @@ header{
 #indexLinks{
     display: flex;
     justify-content: space-evenly;
+    color: #fff;
 }
 #indexLinks a{
     text-decoration: none;
+    color: #fff;
 }
 article{
     margin: 2rem 5rem 2rem 5rem;
@@ -34,6 +38,9 @@ article{
     display: flex;
     justify-content: center;
     height: 25rem;
+    border: 0.3rem solid #000;
+    background-color: #1a1919;
+    border-radius: 0.5rem;
     
 }
 .servico1{
@@ -76,6 +83,7 @@ div img{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 .themes{
     text-align: end;
@@ -92,4 +100,7 @@ a{
 }
 .themes img{
     width: 100%;
+}
+a{
+    color: black;
 }

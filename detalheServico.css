@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: #fff;
+    background-color: #2e2c2c;
+}
+.imgBox{
+
+    width: 700px;
+    height: 300px;  
+    height: 400px;
+}
+div img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+h1{
+    text-align: center;
+    margin-top: 3rem;
+}
+.container{
+    margin: 10rem 5rem 0 3rem;
+    grid-gap: 1rem;
+    display: grid;
+    grid-template: 
+    'imgBox1 textArea1'
+    'imgBox2 textArea2'
+    'imgBox3 textArea3'
+    'imgBox4 textArea4'
+    'imgBox5 textArea5'
+    ;
+}
+.imgBox1{
+    width: 700px;
+    height: 300px;
+    grid-area: imgBox1;
+}
+.imgBox2{
+    width: 700px;
+    height: 300px;
+    grid-area: imgBox2;
+}
+.imgBox3{
+    width: 700px;
+    height: 300px;
+    grid-area: imgBox3;
+}
+.imgBox4{
+    width: 700px;
+    height: 300px;
+    grid-area: imgBox4;
+}
+.imgBox5{
+    width: 700px;
+    height: 300px;
+    grid-area: imgBox5;
+
+}
+.textArea1{
+    padding: 1rem;
+    background-color: #1a1919;
+    height: 100%;
+    width: 100%;
+    flex-direction:column;
+    display: flex;
+    grid-area: textArea1;
+    /*margin: 2rem 5rem 2rem 2rem;*/
+}
+.textArea2{
+    padding: 1rem;
+    background-color: #1a1919;
+    height: 100%;
+    width: 100%;
+    flex-direction:column;
+    display: flex;
+    grid-area: textArea2;
+    /*margin: 2rem 5rem 2rem 2rem;*/
+}
+.textArea3{
+    padding: 1rem;
+    background-color: #1a1919;
+    height: 100%;
+    width: 100%;
+    flex-direction:column;
+    display: flex;
+    grid-area: textArea3;
+    /*margin: 2rem 5rem 2rem 2rem;*/
+}
+.textArea4{
+    padding: 1rem;
+    background-color: #1a1919;
+    height: 100%;
+    width: 100%;
+    flex-direction:column;
+    display: flex;
+    grid-area: textArea4;
+    /*margin: 2rem 5rem 2rem 2rem;*/
+}
+.textArea5{
+    padding: 1rem;
+    background-color: #1a1919;
+    height: 100%;
+    width: 100%;
+    flex-direction:column;
+    display: flex;
+    grid-area: textArea5;
+    /*margin: 2rem 5rem 2rem 2rem;*/
+}
+.container div{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+
+    
+}
+.title{
+    display: flex;
+    width: 100px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    
+}
+td, th{
+    border: 1px solid #fff;
+    
+}
+
+.btn{
+
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0 0 3rem;
+    border-radius: 0.3rem;
+    background-color: #da3232;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #b62a2a;
+    transition: 0.3s;
+
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
